@@ -5,7 +5,7 @@ This project includes authentication, blog posts, comments, and likes functional
 
 ## Features
 - User authentication  
-- Blog posts with title, body, cover photo, author, and likes  
+- Blog posts with title, body, cover photo (uploaded to google cloud bucket), author, and likes  
 - Comments on blog posts  
 - PostgreSQL database (Dockerized for local dev)  
 - Ready for deployment on **Render** with GitHub Actions CI/CD  

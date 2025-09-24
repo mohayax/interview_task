@@ -1,0 +1,10 @@
+Django>=4.2,<5
+djangorestframework
+djangorestframework-simplejwt
+Pillow
+psycopg2-binary
+dj-database-url
+django-storages
+google-cloud-storage
+python-decouple
+drf-yasg

@@ -16,6 +16,7 @@ schema_view = get_schema_view(
    ),
    public=True,
    permission_classes=[permissions.AllowAny],
+   url="https://interview-task-kkx4.onrender.com/api/v1",
 )
 
 urlpatterns = [

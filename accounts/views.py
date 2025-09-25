@@ -4,13 +4,14 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
 from .serializers import UserSerializer
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.pagination import PageNumberPagination
 from drf_yasg.utils import swagger_auto_schema
 
 
 
 class SignUp(APIView):
+    permission_classes = [AllowAny,]
     @swagger_auto_schema(
         request_body=UserSerializer,
         responses={201: UserSerializer},

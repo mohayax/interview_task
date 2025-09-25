@@ -8,3 +8,4 @@ django-storages
 google-cloud-storage
 python-decouple
 drf-yasg
+django-cors-headers
